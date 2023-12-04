@@ -13,6 +13,10 @@
 - START / STOP via [Strg] + [F11]
 - ✨Magic ✨
 
+## Important
+- After reboot/new start, AutoHotkey (and the `CS2-Clicker.ahk` is inaktive)
+- You have to execute `CS2-Clicker.ahk` again to start Autohotkey and load the script
+
 ## License
 
 MIT
