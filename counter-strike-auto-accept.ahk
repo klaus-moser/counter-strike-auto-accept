@@ -30,6 +30,7 @@
 	Center_x := Round(Width/2)
 	Center_y := Hight/2
 	Center_y_Offset := Round(Center_y - (Hight * Offset))
+	SendMode "Event" ; Used to show the mouse movement
 
 
     static KeepStrgF11Running := false
@@ -44,17 +45,18 @@
     KeepStrgF11Running := true
 	
     Loop
-    {
-		MouseMove Center_x + 5, Center_y_Offset
+    {	
+		;SendEvent "{PgDn}" ; Press the Page Down key to look down
+		sleep 100
+		
+		MouseMove Center_x + 10, Center_y_Offset, 10
 		MouseClick "left"
-		Sleep 500
+		Sleep 1000
 		
-		MouseMove Center_x - 5, Center_y_Offset
+		MouseMove Center_x - 10, Center_y_Offset, 10
 		MouseClick "left"
-		Sleep 500
-		
-		
-        ; But leave the rest below unchanged.
+		Sleep 1000
+
         if not KeepStrgF11Running  ; The user signaled the loop to stop by pressing Win-Z again.
             break  ; Break out of this loop.
     }
