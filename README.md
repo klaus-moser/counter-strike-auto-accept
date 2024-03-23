@@ -8,6 +8,16 @@
 
 ![alt text](https://github.com/klaus-moser/counter-strike-auto-accept/blob/master/images/test-image-orig.png?raw=true)
 
+#### Compatibility
+
+| Game | Current status    | Result    |
+| :---   | :---: | :---: |
+| Counter-Strike | not tested   | ❌   |
+| Counter-Strike: Condition Zero | not tested   | ❌   |
+| Counter-Strike: Source | not tested   | ❌   |
+| Counter Strike: Global Offensive | fully tested   | ✅   |
+| Counter Strike 2   | fully tested   | ✅   |
+
 #### Requirements
 - Requires AutoHotkey v2.0
 - https://www.autohotkey.com/download/ahk-v2.exe
@@ -19,7 +29,6 @@
 - You can check your taskbar in the down right corner if it was installed & loaded successfully
 
 ![alt text](https://github.com/klaus-moser/counter-strike-auto-accept/blob/master/images/check-taskbar.jpg?raw=true)
-
 
 #### Usage
 - Start or Stop the clicker via [Strg] + [F11]
