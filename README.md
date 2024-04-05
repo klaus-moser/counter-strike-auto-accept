@@ -48,6 +48,11 @@
 
 - The script will be executed with each start-up/reboot to be ready to use with [Strg] + [F11]
 
+#### Future (possible) features
+- "Premier"-script
+- Auto-Click-Play
+- "Look-Up"
+
 #### License
 
 MIT
