@@ -36,15 +36,19 @@
 	
     Loop
     {
-		MouseMove Center_x + 5, Center_y_Offset
+		MouseMove Center_x + 5, Center_y_Offset ; click on START
 		MouseClick "left"
 		Sleep 500
 		
-		MouseMove Center_x - 5, Center_y_Offset
+		MouseMove Center_x - 5, Center_y_Offset ; click on START
 		MouseClick "left"
 		Sleep 500
 		
-		
+		MouseMove Center_x, 30 ; click on PLAY (980,30)
+		MouseClick "left"
+		Sleep 500
+
+	
         ; But leave the rest below unchanged.
         if not KeepStrgF11Running  ; The user signaled the loop to stop by pressing Win-Z again.
             break  ; Break out of this loop.
