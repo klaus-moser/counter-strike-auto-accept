@@ -22,6 +22,10 @@
 - Requires AutoHotkey v2.0
 - https://www.autohotkey.com/download/ahk-v2.exe
 
+#### Contents
+- `counter-strike-auto-accept.ahk` is the standard script that only moves and clicks repeatedly
+- `counter-strike-auto-accept-color-check.ahk` is a script that tries to identify the "ACCEPT" colors, click and auto stop
+
 #### Installation
 - Clone or download the repo
 - Click and install AutoHotKey via the `ahk-v2.exe`
